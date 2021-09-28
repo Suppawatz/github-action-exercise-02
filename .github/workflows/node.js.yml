@@ -34,7 +34,7 @@ jobs:
     run-on: ubuntu-latest
     steps:
       - uses: action/checkout@v2
-      - use: akhileshns/heroku-deploy@3.12.12
+      - use: akhileshns/heroku-deploy@v3.12.12
         with:
         heroku_api_key: ${{secrets.HEROKU_API_KEY}}
         heroku_app_name: "suppawat-github-action-02"
